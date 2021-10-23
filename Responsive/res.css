@@ -1,0 +1,240 @@
+
+.nav{
+    background-color: #212121;
+    color: white;
+    
+}
+.nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+.nav li{
+    display: flex;
+    float: left;
+    padding: 8px;
+    margin: 25px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.ser{
+    background-color:#212121;
+    float: right;
+    padding:17px 45px;
+    margin-top: -95px;
+    margin-right: 278px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    
+    
+}
+
+
+
+.bu{
+    float: right;
+    padding:16px 29px;
+    margin-top: -113px;
+    margin-right:1px ;
+}
+.log{
+    padding: 17px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+.log:hover{
+    background-color: white;
+    color: black;
+}
+.btn{
+    padding: 17px 35px;
+    background-color: #ffc107;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+.scroll a{
+    
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.scroll li{
+    list-style: none;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+    
+    overflow:hidden;
+   
+    margin-right: 10px;
+}
+
+  div.scroll{
+    background-color: #333;
+    width: 250px;
+    height: 950px;
+    
+    overflow:scroll;
+    margin: 5px;
+    
+    text-align: left;
+    padding: 25px;
+    text-align: justify;
+}
+
+        
+div.scroll a{
+    display: inline-block;
+  color: white;
+  
+  padding: 14px;
+  text-decoration: none;
+  margin-left: -9px;
+  
+  
+}
+.heading{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+#ab{
+    position: absolute;
+    top: 150px;
+    
+    left: 31%;
+    
+   
+}
+#ab button{
+   background-color: green;
+   border: 2px solid white;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+   color: white;
+}
+.red{
+    position: absolute;
+    left: 295%;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    text-align: center;
+    
+    width: 77px;
+
+}
+#heading{
+    position: absolute;
+    top: 290px;
+    left: 31%;
+    background-color: #333;
+    color: white;
+    width: 701px;
+    height: 300px;
+
+
+}
+.u{
+    position: absolute;
+    left: 47px;
+    top: 27px;
+    font-size: 24px;
+}
+.b button{
+    background-color: green;
+    border: 2px solid white;
+    width: 246px;
+    height: 46px;
+    font-size: 15px;
+}
+#head{
+    position: absolute;
+    left: 404px;
+    top: 590px;
+}
+#head h1{
+    font-size: 40px;
+    color: black;
+}
+#head p{
+    color: black;
+    font-size: 20px;
+  font-family: bold;
+
+}
+.d ul{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.d li{
+    padding: 10px;
+    font-size: 20px;
+    background-color:wheat;
+}
+.g{
+    margin: 10px;
+}
+#a {
+    padding: o;
+    background-color: #333;
+    height: 1209px;
+    width: 210px;
+    overflow-x: hidden;
+    position: absolute;
+    color: white;
+    margin: auto;
+    overflow-y: scroll;
+   
+    
+
+}
+
+#a h1{
+    text-align: center;
+}
+#a li{
+    padding: 10px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+   
+}
+#a ul{
+    color: white;
+    text-decoration: none;
+    
+}
+.ba a{
+    color: white;
+    text-decoration: none;
+}
+.g{
+    padding: 10px;
+    font-size: 15px;
+}
+.next{
+    font-weight: bold;
+}
+.as{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.sa{
+    font-weight: bold;
+}
+
