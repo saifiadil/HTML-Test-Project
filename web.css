@@ -1,0 +1,246 @@
+body{
+    background-image:  url("C:\Users\adil\Desktop\First-website\Website\topography (1).svg"), linear-gradient(
+        110deg, #f93d66, #6d47d9);
+        background-size: 340px, auto;
+        min-height: calc(100vh -100px);
+        background-attachment: fixed;
+        letter-spacing: -1px;
+   
+        
+}
+.menu a{
+    background: var(yellow);
+    border: 2px solid black;
+    display:block;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: var(black);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px;
+    width: 133px
+    
+}
+.menu ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 10px;
+   
+
+}
+#menu-list{
+   display: flex;
+  
+}
+#menu-list a{
+    background-color: yellow;
+}
+.hero{
+    grid-area: hero;
+background:white url("\taco.jpg");
+    background-size: cover;
+    min-height: 400px;
+   background-position: bottom right;
+   display: flex;
+   flex-direction: column;
+  
+   justify-content: center;
+   align-items: start;
+  padding: 50px;
+  width: 57%;
+
+   position: relative;
+
+}
+h1{
+    margin: 0 0 5px 0;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background-color: #ffc600;
+    padding: 5px;
+
+
+
+}
+.hero p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 5px;
+    background-color: #ffc600;
+}
+.dollar{
+    background-color: #ffc600;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 25%;
+    float: right;
+    border: 2px solid black;
+    top: 156px;
+    position: absolute;
+    left: 68%;
+    height: 230px;
+
+  
+   
+
+    
+    float: right;
+}
+.dollar p{
+    font-size: 30px;
+    font-weight: 300;
+}
+.dollar-2{
+    background-color: #ffc600;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 25%;
+    
+    border: 2px solid black;
+    position: absolute;
+    left: 68%;
+    height:240px;
+    top: 415px;
+    
+  
+
+}
+.dollar-2 p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#feature{
+    display: grid;
+    display: flex;
+    grid-gap: 20px;
+    width: 100%;
+    
+    
+
+}
+.feature{
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+    margin: 13px;
+    padding: 11px;
+}
+.feature .icon{
+    font-size: 50px;
+}
+h3{
+    margin: 0 0 5px 0;
+}
+.feature p{
+    color: rgba(0,0,0,0.5);
+   
+}
+#b{
+    grid-template-columns: 1fr;
+    background-color: white;
+    padding: 50px;
+    display: grid;
+    align-items: center;
+
+    
+}
+img{
+    max-width: 100%;
+}
+h2{
+    margin: 0 0 5px 0;
+}
+.content p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+button{
+    background-color: #ffc600;
+    border: 0;
+    padding: 10px 20px;
+    padding: 24px;
+    font-family: bold;
+}
+.content {
+   text-align: right;
+  position: absolute;
+  right: 750px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#c h2{
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+#c h2::before{
+    display: block;
+    content: '';
+    height: 10px;
+   background:  linear-gradient(to var(--direction, left), var(--yellow), transparent);
+} 
+#c h2::after{
+    direction: right;
+
+}
+#c img{
+    width: 100%;
+    width: 240px;
+  
+
+
+
+}
+
+ .red{
+width: 240px;
+width: 100%;
+height: 240px;
+}
+.f{
+    width: 240px;
+width: 100%;
+height: 240px;
+}
+.e{
+    width: 240px;
+width: 100%;
+height: 240px;
+}
+.g{
+    width: 240px;
+    width: 100%;
+    height: 240px;
+}
+.h{
+    width: 240px;
+    width: 100%;
+    height: 240px;
+}
+.i{
+    width: 240px;
+    width: 100%;
+    height: 240px; 
+}
